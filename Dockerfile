@@ -1,6 +1,5 @@
 FROM continuumio/anaconda3:4.4.0
 
-FROM python:3.6.5
 
 RUN apt-get update -y && \
     apt-get install -y python-pip python-dev
